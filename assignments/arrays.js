@@ -87,7 +87,7 @@ console.log(inventory[49].car_make, inventory[49].car_model)
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
-let carModelsSorted = [];
+
 for(let i = 0; i < inventory.length; i++){
   if(!carModels.includes(inventory[i].car_model)){
     carModels.push(inventory[i].car_model);
@@ -128,12 +128,12 @@ console.log(specfic);
 
 // or 
 
-let BMWAndAudi = [];
+// let BMWAndAudi = [];
 
-inventory.forEach(function(){
+// inventory.forEach(function(inventory){
   
-  return BMWAndAudi.push(inventory.car_make === "Audi")
+//   return BMWAndAudi.push(inventory.car_make === "Audi")
   
-});
+// });
 
-console.log(BMWAndAudi);
+// console.log(BMWAndAudi);
